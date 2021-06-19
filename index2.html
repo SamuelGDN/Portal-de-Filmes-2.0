@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">    
+    <link rel="shortcut icon" href="imagens/Logo.png">
+    <title>Assista Agora | O seu Portal de Filmes</title>
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-xl navbar-dark mt-5">
+
+            <a class="navbar-brand" href="index.html">
+                <img src="imagens/Logo.png" alt="Logotipo" class="logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSite">
+
+                <ul class="navbar-nav mx-auto" style="font-size:20px">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Mais bem Avaliados</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index2.html"><strong>Próximas Estréias</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index3.html">Em Cartaz</a>
+                    </li>
+                </ul>
+
+                <form  id="form">
+                    <input type="text" placeholder="Pesquisar" id="search" class="search">
+                </form>
+            </div>
+        </nav>
+        
+        
+    </header>
+    <div id="tags"></div>
+    <main id="main">
+        <h3>Em Destaque</h3>
+    </main>
+    <div class="pagination">
+        <div class="page" id="prev">Página Anterior</div>
+        <div class="current" id="current">1</div>
+        <div class="page" id="next">Proxima Página</div>
+    </div>
+
+    <footer id="footer">
+        <div class="rodape">
+            <div class="footer_area">
+                <p>Copyright 2021 - Disciplina de Desenvolvimento de Interfaces Web - <strong>ICEI PUC Minas</strong></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <script src="script2.js"></script>
+</body>
+</html>

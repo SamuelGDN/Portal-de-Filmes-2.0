@@ -1,0 +1,1 @@
+Para execução do site no Visual Studio Code abra o arquivo "index.html"
